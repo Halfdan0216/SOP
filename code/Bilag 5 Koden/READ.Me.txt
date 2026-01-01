@@ -1,0 +1,10 @@
+Python‑kode til at simulere vækst af et fraktaltræ på et gitter ved hjælp af en DLA‑lignende algoritme. 
+En partikel startes i random position omkring træet og laver tilfældige skridt, indtil den hæfter sig på strukturen eller sendes ud igen, afhængigt af afstandsgrænser og stickiness‑parameter. 
+Koden holder styr på antal trin, antal partikler der sætter sig, og hvor mange der går for langt væk og resultatet visualiseres 
+Parametre som gitterstørrelse, radius, maks. antal skridt og stickiness kan justeres i toppen af filen for at undersøge forskellige vækstmønstre.
+
+Python‑kode til analysen indlæser de genererede billed‑ eller simulationsdata og beregner bl.a. radial massefordeling, vinkel‑fordeling og fraktaldimension ved hjælp af box‑counting.
+I samme mappe ligger også en fil med simulationsdata, som kan bruges direkte til analysen uden at køre en ny simulering
+
+Koden til projektet er skrevet i Jupyter Notebook. Hovedsimuleringen ligger i notebooken Kode‑iteration‑4.ipynb
+I mappen analyse/ findes notebooken analyse.ipynb
